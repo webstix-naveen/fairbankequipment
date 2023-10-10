@@ -1,0 +1,42 @@
+2023-10-09T13:31:55+00:00 CRITICAL Uncaught TypeError: dom_import_simplexml(): Argument #1 ($node) must be of type object, bool given in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(229): dom_import_simplexml(false)
+#1 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_importer_sanitize_xml(false)
+#2 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#3 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/controllers/moove-controller.php(234): apply_filters('moove_importer_...', false)
+#4 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(89): Moove_Importer_Controller->moove_read_xml(Array)
+#5 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_read_xml('')
+#6 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/projects/fairbank/wp-admin/admin-ajax.php(188): do_action('wp_ajax_moove_r...')
+#9 {main}
+  thrown in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php on line 229
+
+2023-10-09T13:32:03+00:00 CRITICAL Uncaught TypeError: dom_import_simplexml(): Argument #1 ($node) must be of type object, bool given in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(229): dom_import_simplexml(false)
+#1 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_importer_sanitize_xml(false)
+#2 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#3 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/controllers/moove-controller.php(234): apply_filters('moove_importer_...', false)
+#4 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(89): Moove_Importer_Controller->moove_read_xml(Array)
+#5 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_read_xml('')
+#6 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/projects/fairbank/wp-admin/admin-ajax.php(188): do_action('wp_ajax_moove_r...')
+#9 {main}
+  thrown in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php on line 229
+
+2023-10-09T13:32:22+00:00 CRITICAL Uncaught TypeError: dom_import_simplexml(): Argument #1 ($node) must be of type object, bool given in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php:229
+Stack trace:
+#0 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(229): dom_import_simplexml(false)
+#1 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_importer_sanitize_xml(false)
+#2 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(205): WP_Hook->apply_filters(false, Array)
+#3 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/controllers/moove-controller.php(234): apply_filters('moove_importer_...', false)
+#4 /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php(89): Moove_Importer_Controller->moove_read_xml(Array)
+#5 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(310): Moove_Importer_Actions->moove_read_xml('')
+#6 /opt/lampp/htdocs/projects/fairbank/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#7 /opt/lampp/htdocs/projects/fairbank/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#8 /opt/lampp/htdocs/projects/fairbank/wp-admin/admin-ajax.php(188): do_action('wp_ajax_moove_r...')
+#9 {main}
+  thrown in /opt/lampp/htdocs/projects/fairbank/wp-content/plugins/import-xml-feed/moove-actions.php on line 229
+
