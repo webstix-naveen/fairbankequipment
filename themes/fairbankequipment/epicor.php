@@ -10,7 +10,8 @@
 
 
         define("YOUR_USERNAME","SessionToken");
-        define("TOKENID","DipEj7%2FAszJDya3uipkt6uzWvW2Lswh0gIR4uRAiTifq0e20HBRKw%2BLhLSNehyRH85gEnoLgecX8YXPrpdpe27uyy1MXWdtbW3ShsSEJd2jTwamiIzjx3exHRTCW6gYV");        
+        define("TOKENID","HI3j%2FWDO0GKtjLsJtevniJ5OlwAPyND5C0NLlak6l8A%2FPFG0BECSwxwFK8Xh23Nl%2BkO074Qftn4SiF4dQCJwNVzfEg%2BA%2BbrpZ7BKapuTHrDKI4pTUqoZFDrW0y40NSIc");   
+        
 
         //$apiUrl = 'http://10.1.32.99:5000/Products/BasicInformation';
         //$apiUrl = 'http://10.1.32.99:5000/Products/81375';
