@@ -1,15 +1,19 @@
-<?php
-get_header(); 
+<?php get_header();
 
-if ( have_posts() ) {
+	if ( have_posts() ) :
 
-	// Load posts loop.
-	while ( have_posts() ) { the_post();
-		the_title();
-		the_content();
-	}
+		while ( have_posts() ) : the_post(); ?>
 
-}
+			<h2><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h2>
 
-get_footer();
-?>
+			<?php the_content() ?>
+		
+		<?php endwhile;
+
+	else :
+		
+		echo '<p>There are no posts!</p>';
+
+	endif;
+
+get_footer(); ?> 
